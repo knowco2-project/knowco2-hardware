@@ -16,14 +16,14 @@ See the full [bill of materials](../bom/bom.csv).
 
 **Required**
 - Adafruit Feather ESP32-S3 Reverse TFT
-- Sensirion SCD40 or SCD41 breakout board
-- STEMMA QT / Qwiic cable (50 mm or 100 mm)
-- USB-C cable (for power)
-- 3D-printed enclosure (see [hardware/enclosure/](../knowco2-hardware/enclosure/))
+- Sensirion SCD41 breakout board
+- STEMMA QT / Qwiic cable (50 mm)
+- USB-C power supply and cable
+- 3D-printed enclosure (see [enclosure/](../enclosure/))
 
 **Tools**
+- Phillips head screwdriver (for enclosure screws)
 - Computer with a browser (for initial setup)
-- Optional: soldering iron (only if attaching headers for a custom PCB)
 
 ---
 
@@ -102,3 +102,6 @@ The device is now ready to use. It will be accessible on your local network at `
 **Device won't connect to Wi-Fi**
 - Confirm your network is 2.4 GHz (5 GHz is not supported)
 - Hold the top button (C) for ~2 seconds to return to AP mode
+
+**Sensor readings seem off after assembly**
+- See the full calibration guide at [knowco2.com/calibration.html](https://knowco2.com/calibration.html)
