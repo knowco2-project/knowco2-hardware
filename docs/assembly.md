@@ -18,7 +18,8 @@ See the full [bill of materials](../bom/bom.csv).
 - Adafruit Feather ESP32-S3 Reverse TFT
 - Sensirion SCD41 breakout board
 - STEMMA QT / Qwiic cable (50 mm)
-- USB-C power supply and cable
+- USB-C power supply
+- USB-C data cable for initial setup (must support data transfer, not charge-only)
 - 3D-printed enclosure (see [enclosure/](../enclosure/))
 
 **Tools**
