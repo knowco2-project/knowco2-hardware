@@ -1,50 +1,52 @@
-# Enclosure Design Files
+# KnowCO2 Enclosure
 
-Hardware license: [CERN-OHL-S-2.0](../LICENSE-HARDWARE)
+This folder contains the custom 3D printed enclosure files for the KnowCO2 KC2-01 hardware design.
 
-## Files
+The enclosure is designed around:
 
-| File | Format | Use |
-|------|--------|-----|
-| `knowco2-enclosure.step` | STEP | Modify in any CAD tool |
-| `knowco2-enclosure-main.stl` | STL | Print the main body |
-| `knowco2-enclosure-lid.stl` | STL | Print the lid |
-| `knowco2-enclosure.3mf` | 3MF | Print with slicer settings included |
-| `knowco2-enclosure.shapr` | Shapr3D source | Original source file |
+- Adafruit Feather ESP32-S3 Reverse TFT
+- Adafruit SCD-40/SCD-41 CO2 Sensor Breakout
+- STEMMA QT I2C cable
+- USB-C power
 
-> Design files will be placed here. For now, see the `knowco2-3d-models/` folder at the root of this project for current versions.
+The CO2 sensor is physically separated from the main electronics enclosure to improve airflow and reduce self-heating effects from the display, processor, and power circuitry.
 
-## Current design versions
+## Parts
 
-The enclosure has gone through multiple design iterations. The current production version is **version 10** (`knowco2-main-version10.step`).
+| Part | STEP | STL | Description |
+|------|------|-----|-------------|
+| Main case | `step/knowco2_main_case.step` | `stl/knowco2_main_case.stl` | Main body for the Feather ESP32-S3 Reverse TFT |
+| Main cover | `step/knowco2_main_cover.step` | `stl/knowco2_main_cover.stl` | Front cover with display and button openings |
+| Sensor case | `step/knowco2_sensor_case.step` | `stl/knowco2_sensor_case.stl` | Body for the SCD41 sensor module |
+| Sensor cover | `step/knowco2_sensor_cover.step` | `stl/knowco2_sensor_cover.stl` | Cover for the SCD41 sensor enclosure |
 
-Key design decisions:
-- Designed around the Adafruit Feather ESP32-S3 Reverse TFT (34.8 mm × 22.9 mm)
-- Sensor opening sized for Sensirion SCD4x
-- USB-C access cutout on the short edge
-- Three button cutouts aligned with Feather A / B / C buttons
+## Recommended print settings
 
-## Printing recommendations
+These are starting settings and may need adjustment for your printer and filament.
 
-| Setting | Value |
-|---------|-------|
-| Material | PLA or PETG |
-| Layer height | 0.2 mm |
-| Infill | 15–20% |
-| Supports | None required (designed to print without) |
-| Perimeters | 3 |
+| Setting | Recommendation |
+|---------|----------------|
+| Material | PETG or PLA |
+| Layer height | 0.20 mm |
+| Nozzle | 0.4 mm |
+| Infill | 15-25% |
+| Walls/perimeters | 3 or more |
+| Top/bottom layers | 4 or more |
+| Supports | As needed based on orientation |
 
-## Modifying the design
+## Assembly checks
 
-Import the `.step` file into your preferred CAD tool:
-- [FreeCAD](https://www.freecad.org) (free, open source)
-- Fusion 360 (free for personal/hobby use)
-- Shapr3D (original source format)
-- Onshape, SolidWorks, etc.
+Before final assembly, confirm:
 
-Any modifications must be released under CERN-OHL-S-2.0.
+- The Feather ESP32-S3 Reverse TFT fits into the main case.
+- The USB-C connector is accessible.
+- The TFT aligns with the front cover opening.
+- The buttons move freely and return properly.
+- The SCD41 sensor breakout fits into the sensor case.
+- The sensor has adequate airflow exposure.
+- The STEMMA QT cable is not pinched.
+- The ESP32-S3 antenna area is not blocked by metal or shielding.
 
-## License notice
+## Notes
 
-SPDX-License-Identifier: CERN-OHL-S-2.0
-Source Location: https://github.com/knowco2-project/knowco2
+The STEP files are the preferred files for modification and manufacturing. The STL files are provided for direct 3D printing.
