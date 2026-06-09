@@ -17,12 +17,11 @@ The current KnowCO2 KC2-01 hardware design is built around third-party Adafruit 
 
 ## Folders
 
-| Folder | Contents |
-|--------|----------|
-| [pcb/](pcb/) | PCB/module notes and related hardware references |
+| Folder                  | Contents                          |
+|-------------------------|-----------------------------------|
 | [enclosure/](enclosure/) | KnowCO2 3D enclosure design files |
-| [reference-cad/](reference-cad/) | Links to third-party CAD models used for mechanical reference |
-| [bom/](bom/) | Bill of materials |
+| [docs/](docs/)          | Documentation                     |
+| [bom/](bom/)            | Bill of materials                 |
 
 ## Third-party PCB/module CAD references
 
@@ -42,12 +41,12 @@ The custom KnowCO2 enclosure files are included under [enclosure/](enclosure/).
 
 The current enclosure design includes four printed parts:
 
-| Part | Purpose |
-|------|---------|
-| Main case | Main body for the Feather ESP32-S3 Reverse TFT |
+| Part                     | Purpose |
+|--------------------------|---------|
+| Main case                | Main body for the Feather ESP32-S3 Reverse TFT |
 | Main cover / front panel | Cover with display/button access for the main unit |
-| Sensor enclosure | Remote/secondary enclosure body for the SCD41 sensor module |
-| Sensor cover | Cover for the SCD41 sensor enclosure |
+| Sensor case              | Remote/secondary enclosure body for the SCD41 sensor module |
+| Sensor cover             | Cover for the SCD41 sensor enclosure |
 
 ## File formats
 
