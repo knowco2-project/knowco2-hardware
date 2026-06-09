@@ -20,6 +20,17 @@ The CO2 sensor is physically separated from the main electronics enclosure to im
 | Sensor case | `step/knowco2_sensor_case.step` | `stl/knowco2_sensor_case.stl` | Body for the SCD41 sensor module |
 | Sensor cover | `step/knowco2_sensor_cover.step` | `stl/knowco2_sensor_cover.stl` | Cover for the SCD41 sensor enclosure |
 
+## Images
+
+Reference images are included in `images/`:
+
+| Image | Description |
+|-------|-------------|
+| `images/knowco2_main_case.png` | Main case reference render |
+| `images/knowco2_main_cover.png` | Main cover reference render |
+| `images/knowco2_sensor_case.png` | Sensor case reference render |
+| `images/knowco2_sensor_cover.png` | Sensor cover reference render |
+
 ## Recommended print settings
 
 These are starting settings and may need adjustment for your printer and filament.
