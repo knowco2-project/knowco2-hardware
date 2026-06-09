@@ -2,7 +2,7 @@
 
 This repository contains the open hardware design files and mechanical references for the KnowCO2 indoor air quality monitor.
 
-All original KnowCO2 hardware design files in this repository are released under the [CERN-OHL-S-2.0](LICENSE-HARDWARE) license.
+All original KnowCO2 hardware design files in this repository are released under the [CERN-OHL-S-2.0](enclosure/LICENSE-HARDWARE) license.
 
 ## Hardware overview
 

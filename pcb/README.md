@@ -1,6 +1,6 @@
 # PCB Design Files
 
-Hardware license: [CERN-OHL-S-2.0](../LICENSE-HARDWARE)
+Hardware license: [CERN-OHL-S-2.0](../enclosure/LICENSE-HARDWARE)
 
 ## Contents
 

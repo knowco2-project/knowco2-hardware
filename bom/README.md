@@ -1,6 +1,6 @@
 # Bill of Materials
 
-Hardware license: [CERN-OHL-S-2.0](../LICENSE-HARDWARE)
+Hardware license: [CERN-OHL-S-2.0](../enclosure/LICENSE-HARDWARE)
 
 The BOM is provided as a CSV file: [bom.csv](bom.csv)
 
