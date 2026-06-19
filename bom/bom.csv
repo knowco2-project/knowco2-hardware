@@ -4,10 +4,10 @@ U1,1,Adafruit SCD41 CO2/Temp/Humidity Breakout,Adafruit / Sensirion,5190,Adafrui
 CABLE1,1,STEMMA QT / Qwiic Cable 50mm,Adafruit,4399,Adafruit,4399,0.95,Connects sensor to Feather; no soldering required,—
 PWR1,1,USB-C Power Supply 5V 3A UL Listed,Adafruit,501,Adafruit,501,5.95,UL listed; included with device,—
 PWR2,1,USB-C Cable,Generic,—,—,—,5.00,Included with device; 5V 1A minimum required,—
-ENC1,1,Main Unit Body (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/main-body.stl,—
-ENC2,1,Main Unit Lid (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/main-lid.stl,—
-ENC3,1,Sensor Housing Body (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/sensor-body.stl,—
-ENC4,1,Sensor Housing Lid (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/sensor-lid.stl,—
+ENC1,1,Main Unit Body (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/main-body.stl,https://certification.oshwa.org/us002828.html
+ENC2,1,Main Unit Lid (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/main-lid.stl,https://certification.oshwa.org/us002828.html
+ENC3,1,Sensor Housing Body (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/sensor-body.stl,https://certification.oshwa.org/us002828.html
+ENC4,1,Sensor Housing Lid (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/sensor-lid.stl,https://certification.oshwa.org/us002828.html
 NUT1,3,Nut M2-0.4 Coarse Thread Hexagon Carbon Steel,Generic,—,—,—,—,,—
 STND1,1,Standoff M2x5mm+3mm Brass,Generic,—,—,—,—,,—
 STND2,2,Standoff M2x4mm+3mm Brass,Generic,—,—,—,—,,—
