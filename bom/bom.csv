@@ -2,7 +2,7 @@ Reference,Quantity,Description,Manufacturer,MPN,Supplier,Supplier PN,Unit Cost (
 MCU1,1,Adafruit Feather ESP32-S3 Reverse TFT,Adafruit,5691,Adafruit,5691,24.95,Hardware files (EagleCAD; CC-BY-SA): https://github.com/adafruit/Adafruit-ESP32-S3-Reverse-TFT-Feather-PCB,https://certification.oshwa.org/us002502.html
 U1,1,Adafruit SCD41 CO2/Temp/Humidity Breakout,Adafruit / Sensirion,5190,Adafruit,5190,49.95,Hardware files (EagleCAD; CC-BY-SA): https://github.com/adafruit/Adafruit-SCD-4x-PCB,https://certification.oshwa.org/us002089.html
 CABLE1,1,STEMMA QT / Qwiic Cable 50mm,Adafruit,4399,Adafruit,4399,0.95,Connects sensor to Feather; no soldering required,—
-PWR1,1,USB-C Power Supply 5V 3A UL Listed,Adafruit,501,Adafruit,501,5.95,UL listed; included with device,—
+PWR1,1,USB-C Power Supply 5V 1A UL Listed,Adafruit,501,Adafruit,501,5.95,UL listed; included with device,—
 PWR2,1,USB-C Cable,Generic,—,—,—,5.00,Included with device; 5V 1A minimum required,—
 ENC1,1,Main Unit Body (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/main-body.stl,https://certification.oshwa.org/us002828.html
 ENC2,1,Main Unit Lid (3D printed),knowco2,—,—,—,—,Designed by knowco2; print from hardware/enclosure/main-lid.stl,https://certification.oshwa.org/us002828.html
