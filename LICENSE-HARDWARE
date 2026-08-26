@@ -1,11 +1,11 @@
 CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
 
 This license applies to the HARDWARE DESIGN FILES in this repository, including:
-  - PCB schematics and layout files (hardware/pcb/)
-  - Enclosure 3D design files (hardware/enclosure/)
-  - Bill of materials (hardware/bom/)
+  - Enclosure 3D design files (enclosure/step/, enclosure/stl/)
+  - Enclosure reference images (enclosure/images/)
+  - Bill of materials (bom/bom.csv)
 
-Copyright (c) knowco2 Project Contributors
+Copyright (c) 2025-2026 KNOWCO2 LLC and knowco2 Project Contributors
 
 NOTICE
 This Source describes Open Hardware and is licensed under the CERN-OHL-S v2.
@@ -17,11 +17,14 @@ This Source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING
 OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 Please see the CERN-OHL-S v2 for applicable conditions.
 
-Source Location: https://github.com/knowco2-project/knowco2
+Source Location: https://github.com/knowco2-project/knowco2-hardware
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on this
 Source, You must maintain the Source Location visible on the external case of
 the hardware or other product you make using this Source.
+
+Documentation in this repository (README files, docs/) is separately licensed
+under CC-BY-SA-4.0; see LICENSE.
 
 Full license text: https://ohwr.org/cern_ohl_s_v2.txt
 SPDX-License-Identifier: CERN-OHL-S-2.0
