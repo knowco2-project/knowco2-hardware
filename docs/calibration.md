@@ -1,6 +1,6 @@
 # Calibration Guide
 
-Documentation license: [CC-BY-SA-4.0](../LICENSE)
+Documentation license: [CC-BY-SA-4.0](../LICENSES/CC-BY-SA-4.0.txt)
 
 ---
 

@@ -1,6 +1,6 @@
 # Bill of Materials
 
-Hardware license: [CERN-OHL-S-2.0](../LICENSE-HARDWARE)
+This README is documentation licensed under [CC-BY-SA-4.0](../LICENSES/CC-BY-SA-4.0.txt). The BOM data is Covered Source under the [CERN-OHL-S-2.0 project notice](../LICENSE-HARDWARE).
 
 The BOM is provided as a CSV file: [bom.csv](bom.csv)
 
