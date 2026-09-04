@@ -1,4 +1,4 @@
-CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+KnowCO2 hardware licensing notice — CERN-OHL-S-2.0
 
 This license applies to the HARDWARE DESIGN FILES in this repository, including:
   - Enclosure 3D design files (enclosure/step/, enclosure/stl/)
@@ -20,11 +20,12 @@ Please see the CERN-OHL-S v2 for applicable conditions.
 Source Location: https://github.com/knowco2-project/knowco2-hardware
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on this
-Source, You must maintain the Source Location visible on the external case of
-the hardware or other product you make using this Source.
+Source, You must visibly and securely display the Source Location on the
+Product, its packaging, or accompanying documentation.
 
 Documentation in this repository (README files, docs/) is separately licensed
-under CC-BY-SA-4.0; see LICENSE.
+under CC-BY-SA-4.0; see LICENSES/CC-BY-SA-4.0.txt.
 
-Full license text: https://ohwr.org/cern_ohl_s_v2.txt
+The complete, unmodified license text is provided in LICENSE and
+LICENSES/CERN-OHL-S-2.0.txt.
 SPDX-License-Identifier: CERN-OHL-S-2.0
