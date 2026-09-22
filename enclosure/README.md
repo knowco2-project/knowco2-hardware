@@ -1,5 +1,7 @@
 # KnowCO2 Enclosure
 
+This README is documentation licensed under [CC-BY-SA-4.0](../LICENSES/CC-BY-SA-4.0.txt). The enclosure design files and reference renders are Covered Source under the [CERN-OHL-S-2.0 project notice](../LICENSE-HARDWARE).
+
 This folder contains the custom 3D printed enclosure files for the KnowCO2 KC2-01 hardware design.
 
 The enclosure is designed around:

@@ -2,7 +2,9 @@
 
 This repository contains the open hardware design files and mechanical references for the KnowCO2 indoor air quality monitor.
 
-All original KnowCO2 hardware design files in this repository are released under the [CERN-OHL-S-2.0](LICENSE-HARDWARE) license.
+All original KnowCO2 hardware design files in this repository are released under CERN-OHL-S-2.0. See the [project notice](LICENSE-HARDWARE), [complete license text](LICENSE), and [licensing map](LICENSING.md).
+
+Documentation is released separately under [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt). Third-party modules and references remain under their respective owners' licenses.
 
 ## Hardware overview
 
@@ -65,7 +67,7 @@ For printing, use the `.stl` files directly in a slicer such as PrusaSlicer, Bam
 
 ### PCB / schematic
 
-KnowCO2 KC2-01 currently uses third-party Adafruit modules rather than a custom KnowCO2 PCB. See [reference-cad/](reference-cad/) for the mechanical CAD references used by the enclosure design.
+KnowCO2 KC2-01 currently uses third-party Adafruit modules rather than a custom KnowCO2 PCB. The mechanical CAD references used by the enclosure design are linked above; third-party CAD files are not copied into this repository.
 
 If a future KnowCO2 custom PCB is added, this repository should include open source PCB design files such as KiCad source files, Gerbers, drill files, schematic PDFs, and board STEP exports.
 
@@ -89,6 +91,9 @@ Full text: https://ohwr.org/cern_ohl_s_v2.txt
 
 If you produce hardware based on these design files, you must:
 
-- Retain this license notice and the Source Location on any product or its documentation.
+- Retain the applicable notices in the design source.
+- Visibly and securely display the Source Location on the Product, its packaging, or accompanying documentation.
 - Release any modifications to the design files under the same CERN-OHL-S-2.0 license.
 - Make the modified source files available, satisfying the Source requirement in CERN-OHL-S.
+
+See [CHANGES.md](CHANGES.md) for the modification record and [RELEASING.md](RELEASING.md) for the versioned hardware-release procedure.
